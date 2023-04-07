@@ -1,0 +1,342 @@
+@media only screen and (max-width:1920px) {}
+
+
+@media only screen and (max-width:1508px) {
+    .cards .card {
+        height: 520px;
+    }
+}
+
+@media only screen and (max-width:1468px) {}
+
+@media only screen and (max-width:1445px) {
+    .showcase h1 {
+        width: 130%;
+        font-size: 80px;
+    }
+
+    .child h1 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width:1370px) {
+    .showcase h1 {
+        font-size: 70px;
+    }
+
+    .showcase input {
+        width: 600px;
+    }
+
+    .showcase p {
+        font-size: 30px;
+    }
+
+    @media only screen and (max-width:1250px) {
+        nav ul {
+            width: 60%;
+        }
+
+        .showcase {
+            background: linear-gradient(to right, #00000091, #00000097), url(./images/dog.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
+    }
+}
+
+@media only screen and (max-width:1180px) {
+    nav ul {
+        width: 100%;
+
+    }
+
+    nav .logo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav .button {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .showcase h1 {
+        width: 50%;
+        font-size: 50px;
+    }
+
+    .showcase p {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .showcase input {
+        width: 450px;
+    }
+
+    @media only screen and (max-width:1124px) {
+        .black {
+            height: auto;
+        }
+
+        .cards .card {
+            width: 40%;
+        }
+
+        .cards {
+            height: auto
+        }
+    }
+
+}
+
+@media only screen and (max-width:1041px) {
+    .reklama {
+        flex-wrap: wrap;
+        height: auto !important;
+        gap: 15px;
+    }
+
+    .reklama img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:860px) {
+    .child h1 {
+        font-size: 60px;
+    }
+
+    .ofer {
+        background: linear-gradient(to right, #00000091, #00000097), url(./images/Discount-pana\ 1.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+}
+
+@media only screen and (max-width:780px) {
+    .cards .card {
+        width: 90%;
+        height: 670px;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:765px) {
+    nav ul {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:755px) {
+    .showcase h1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .child p.info {
+        color: blue;
+        font-size: 20px;
+    }
+
+    p.title {
+        font-size: 20px;
+    }
+
+    .child {
+        margin-right: 25%;
+    }
+
+    .child button {
+        width: 160px;
+    }
+
+    .child h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:627px) {
+    .cards .card {
+        width: 90%;
+        height: 600px;
+    }
+
+    .card p.title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:582px) {
+    .showcase h1 {
+        
+        font-size: 40px;
+    }
+
+    .showcase {
+        background: linear-gradient(to right, #00000091, #00000097), url(./images/dog.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 550px;
+    }
+
+    .showcase p {
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .showcase input {
+        width: 300px;
+    }
+
+    .showcase button {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .card p.title {
+        width: 100%;
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .card p.title {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .cards .card {
+        height: 500px;
+        font-size: 20px;
+    }
+
+    .reklama {
+        width: 100%;
+    }
+
+    .reklama img {
+        width: 110px;
+        margin: 0;
+
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+@media only screen and (max-width:495px) {
+    .child p.title {
+        font-size: 25px;
+    }
+
+    .child h1 {
+        font-size: 35px;
+    }
+
+    .child p.info {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:352px) {
+    .showcase h1 {
+        font-size: 25px;
+        display: flex;
+        
+
+    }
+
+    .showcase h1 {
+        
+    }
+
+    .showcase p {
+        font-size: 20px;
+        
+    }
+
+    .reklama img {
+        margin-top: 10px;
+        height: 50px;
+        width: 200px;
+
+
+    }
+
+    .showcase {
+        padding-top: 100px;
+        box-sizing: border-box;
+    }
+
+    .reklama {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card p.title {
+        
+
+    }
+
+    .card {
+        text-align: center;
+
+
+    }
+
+    .card img {
+        width: 15%;
+    }
+
+    .child p.title {
+        font-size: 15px;
+    }
+
+    .child p.info {
+        font-size: 15px;
+    }
+
+    .child h1 {
+        font-size: 25px;
+    }
+
+    .child button {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width:352px) {
+    .showcase input{
+        width: 90%;
+    }
+    .showcase p{
+        width: 90%;
+    }
+}
